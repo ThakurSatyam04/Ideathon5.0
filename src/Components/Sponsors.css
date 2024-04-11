@@ -1,6 +1,6 @@
 :root{
- --varBlue: #0d0d0d;
- --varYellow: #7ef2b0;
+ --varBlue: #282b59;
+ --varYellow: #f7f719;
 }
 
 .cf{
@@ -32,7 +32,7 @@
 }
 
 .sponsorsContainer{
-    border: 4px solid var(--varYellow) !important;
+    border: 4px solid #91f2cf;
     border-radius: 104px;
     width: 88vw;
 }

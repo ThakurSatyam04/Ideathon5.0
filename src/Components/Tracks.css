@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 :root{
-    --green: #7ef2b0;
-    --darkBlue: #0E2D3D;
-    --orange:#FB8500;
+    --yellow: #F7F719;
+    /* --darkBlue: #0E2D3D; */
 }
 
 .track-title{
     font-weight: bold;
-    color: var(--orange);
+    color:  #5d60a6;
     font-size: 60px;
+    text-shadow: 0px 1px 5px;
+
 }
 
 
@@ -26,7 +27,8 @@
     padding-right: 5%;
     display: flex;
     justify-content: space-around;
-    background-color: var(--orange);
+    background-color: #5d60a6;
+
     border-radius: 25px;
 
 }
@@ -60,7 +62,8 @@
     padding: 10px;
 }
 .right-container{
-  background-color: #2b2b59;
+  background-color:#282b59;
+
   width:100%;
   padding-top: 5%;
   padding-bottom: 5%;
