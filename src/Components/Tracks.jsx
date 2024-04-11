@@ -1,7 +1,8 @@
 import React from "react";
-import ideation from "../Assets/IdeationTrack.svg"
-import prototype from "../Assets/StartupTrack.svg"
+import ideation from "../Assets/idea_track5.svg"
+import prototype from "../Assets/Proto_track5.svg"
 import './Tracks.css'
+
 
 function Tracks(){
     return (
