@@ -18,7 +18,8 @@
     font-weight: bold;
     margin: 32px;
     padding: 8px;
-    color: var(--darkBlue) !important;
+    color: #282b59;
+    text-shadow: 0px 0px 2px
 }
 
 .checkbox {
@@ -35,7 +36,7 @@
     align-content: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #F7F719;
+    background-color: #5d60a6;
 }
 
 .checkbox-group>* {
@@ -46,7 +47,7 @@
 .checkbox-group-legend {
     font-size: 2rem;
     font-weight: 700;
-    color: #9c9c9c;
+    color: #ffffff;
     text-align: center;
     line-height: 1.125;
     margin-bottom: 1.25rem;
@@ -71,7 +72,7 @@
     width: 200px;
     min-height: 200px;
     border-radius: 0.5rem;
-    background-color: var(--darkBlue);
+    background-color: #282b59;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     transition: 0.15s ease;
 }

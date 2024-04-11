@@ -11,7 +11,7 @@
 
 .header_section{
     width:100%;
-    background-image: url(../Assets/background.jpg);
+    background-image: url(../Assets/background5.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -23,12 +23,12 @@
 .header{
     margin:0px;
     padding:0px;
-    background-color:rgb(14, 45, 61,0.67);
+    /* background-color:rgb(14, 45, 61,0.67); */
     background-size: cover;
 }
 
 .btn1{
-    background-color: var(--yellow);
+    background-color: #19f7c7;
     color: var(--darkBlue);
     width:200px;
     height: 55px;
@@ -41,7 +41,7 @@
 }
 
 .btn1:hover{
-    box-shadow: 0px 0px 10px #F7F719;
+    box-shadow: 0px 0px 10px #19f7c7;
     transition: 0.5s;
 }
 .icon-landing{
@@ -73,7 +73,7 @@
     padding: 24px;
     font-size: 60px;
     font-weight: bold;
-    color: var(--yellow);
+    color: #fff;
 }
 .abt_content{
     padding: 18px 0px;
