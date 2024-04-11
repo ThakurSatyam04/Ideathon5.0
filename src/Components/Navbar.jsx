@@ -1,4 +1,4 @@
-import logo from '../Assets/logo.svg';
+import logo from '../Assets/logo5.png';
 import enigma_logo from '../Assets/enigma_logo.svg'
 import './Navbar.css';
 import { useState } from 'react';

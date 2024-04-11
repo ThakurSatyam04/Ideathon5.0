@@ -4,13 +4,15 @@
 }
 
 .ideathon-logo{
-    width: 40px;
+    width: 80px;
 }
+
 
 .enigma-logo{
     width: 80px;
     margin-right: 0%;
 }
+
 
 #bg{
     background-color: none;
@@ -20,7 +22,7 @@
     transition: 0.5s;
 }
 #bg-color{
-    background-color: #0E2D3D;
+    background-color:  #5d60a6;
     opacity: 0.9;
     transition: 0.7s;
 }
@@ -38,7 +40,7 @@
 }
 
 .nav-link:hover{
-    color: var(--yellow);
+    color: #19f7c7;
 }
 
 @media screen and (min-width:200px) and (max-width:800px) {

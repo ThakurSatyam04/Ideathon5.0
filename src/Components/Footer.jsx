@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../Assets/logo.svg';
+import logo from '../Assets/logo5.png';
 import enigma_logo from '../Assets/enigma_logo.svg'
 import './Footer.css'
 
@@ -61,8 +61,8 @@ function Footer () {
             </div>
             <div class="fCol3 cflex mp8">
                 <h3 class="cflex mp8" >Contact us</h3>
-                <div class="mp4">Ankush: +91 9108161001</div>
-                <div class="mp4">Vikitha: +91 6363744355</div>
+                <div class="mp4">Shritha: +91 9513762355</div>
+                <div class="mp4">Satyam: +91 7062333620</div>
             </div>
 
             

@@ -2,7 +2,7 @@
 
 html {
   --scrollbarBG: #0E2D3D;
-  --thumbBG: #F7F719;
+  --thumbBG: black;
 }
 body{
   overflow-x: hidden;
@@ -11,7 +11,7 @@ body{
   font-family: 'Poppins', sans-serif;
 } 
 body::-webkit-scrollbar {
-  width: 11px;
+  /* width: 11px; */
 }
 body {
   scrollbar-width: thin;
@@ -26,12 +26,12 @@ body::-webkit-scrollbar-thumb {
   /* border: 3px solid var(--scrollbarBG); */
 }
 body::-webkit-scrollbar-thumb:vertical:hover {
-    background-color: #dede09;
+    background-color: black;
 }
 @media  screen and (max-width:700px) {
   body{
     overflow-x: hidden;
     overflow-y: overlay;
-    background-color: #F7F719;
+    background-color: black;
   }
 }

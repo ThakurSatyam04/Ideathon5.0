@@ -1,30 +1,34 @@
 import React from "react";
-import ideathon_logo from '../Assets/Ideathon4_new.svg'
+// import ideathon_logo from '../Assets/Ideathon4_new.svg'
+import idea from "../Assets/idea.png"
 import calender from '../Assets/calendar.svg'
 import trophy from '../Assets/trophy.svg'
 import './Landing.css'
+// import '../Assets/Magz.otf'
 
 function Landing () {
     return (
         <div class="header_section" id="home">
         <div class="header">
         <div class="main_section">
-            <div class="icon-landing">
-            <img class="img_ideathon"src={ideathon_logo} alt="" className="logo"/>
-            </div>
+            {/* <div class="icon-landing"> */}
+            {/* <img class="img_ideathon"src={idea} alt="" className="logo"/> */}
+                <p class="ideathon">ideath<span class="o">o</span>n<span class="version">5.0</span></p>
+                <pre><p class="tagline">WHERE  IDEAS  SPEAK</p></pre>
+            {/* </div> */}
             <div class="btn">
                 <button class="btn1">
-                        <a href="https://unstop.com/competitions/ideathon-40-nitte-meenakshi-institute-of-technology-nmit-yelahanka-659861" className="btn-text">Apply now</a>
+                    <a href="https://unstop.com/competitions/ideathon-50-nitte-meenakshi-institute-of-technology-nmit-yelahanka-950328" className="btn-text">Apply now</a>
                 </button>
             </div>
             <div class="content">
                 <div class="price">
                     <img  src={calender} alt="" className="icon-landing"/>
-                    <p>18th MAY, 2023</p>
+                    <p>2nd MAY, 2024</p>
                 </div>
                 <div class="price">
                     <img src={trophy} alt="" className="icon-landing"/>
-                    <p>Cash Prizes worth ₹ 1.1 lakh</p>
+                    <p>Cash Prizes worth ₹ 80k</p>
                 </div>
             </div>
         </div>

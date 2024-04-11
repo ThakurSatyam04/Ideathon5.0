@@ -5,13 +5,16 @@
 
 .footer {
     padding-top: 5%;
-    border-radius: 64px 64px 0 0;
+    /* border-radius: 64px 64px 0 0; */
     width: 100%;
     height: 80%;
     color: #ffffff;
     background-color: #282b59;
-    display: grid;
-    justify-content: space-evenly;
+    /* display: grid; */
+    /* justify-content: space-evenly; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
   .footer .cflex {
@@ -82,6 +85,26 @@
     gap: 40%;
   }
 
+  @media (max-width: 506px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .fCol1{
+      display: flex;
+      flex-direction: row;
+    }
+    .fCol1, .fCol2 {
+        /* width: 100%; */
+    }
+
+    .fCol3 {
+        width: 100%;
+        order: 3; /* Reorder fCol3 to be last */
+        margin-top: 20px; /* Add some margin to separate it from the other columns */
+    }
+}
+
   @media screen and (min-width:200px) and (max-width:800px){
     .footer {
       padding: 5%;
@@ -100,7 +123,7 @@
     }
 
     .socialLogoWrapper{
-      gap: 45px;
+      gap: 15px;
     }
 
     .logoFtr{
@@ -115,7 +138,7 @@
 
   .socialLogoWrapper a {
     display:flex;
-    width: 20px;
+    width: 10px;
   }
 
   .logoFtr {
