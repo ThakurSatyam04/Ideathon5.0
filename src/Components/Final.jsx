@@ -11,7 +11,7 @@ function Final () {
                 </div>
                 <div class="content-final">
                     <p className="text-final">Compete for a Prize Pool of</p>
-                   <b> <p id="amt">₹80000</p></b>
+                   <b> <p id="amt">₹80000+</p></b>
                     <p id="line2">Get mentored, experience, funding and other added benefits</p>
                 </div>
             </div>
