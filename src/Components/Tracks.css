@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 :root{
-    --yellow: #F7F719;
+    --green: #7ef2b0;
     --darkBlue: #0E2D3D;
+    --orange:#FB8500;
 }
 
 .track-title{
     font-weight: bold;
-    color: var(--darkBlue);
+    color: var(--orange);
     font-size: 60px;
 }
 
@@ -25,37 +26,52 @@
     padding-right: 5%;
     display: flex;
     justify-content: space-around;
-    background-color: var(--darkBlue);
+    background-color: var(--orange);
     border-radius: 25px;
-    color:white
+
 }
 
 .content_text{
-    font-size: 15px;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    margin-left: 20px;
 }
+    
 
 .track_logo{
-    width: 150px;
+    width: 85px;
+    padding: 3px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .items #content_heading{
-    font-size: 24px;
+    font-size: 30px;
+    color: #282B59;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+   
 }
 .items p{
     padding: 10px;
 }
 .right-container{
-  background-color: yellow;
+  background-color: #2b2b59;
   width:100%;
   padding-top: 5%;
   padding-bottom: 5%;
   display: flex;
   align-items: center;
   flex-direction: column;
+ 
 }
 
 
-@media only screen and (min-width:200px) and (max-width:950px) {
+@media only screen and (min-width:200px) and (max-width:700px) {
     .container_tracks{
         width:100%;
         flex-direction: column;
@@ -72,7 +88,7 @@
         padding: 20px;
     }
     .track_logo{
-        width: 180px;
+        width: 100px;
     }
 }
 

@@ -1,6 +1,8 @@
 :root{
     --yellow: #F7F719;
     --darkBlue: #0E2D3D;
+    --orange : #FB8500;
+    --green: #7EF2B0;
 }
 
 .page2_container {
@@ -18,7 +20,7 @@
     font-weight: bold;
     margin: 32px;
     padding: 8px;
-    color: var(--darkBlue) !important;
+    color: #7EF2B0;
 }
 
 .checkbox {
@@ -35,7 +37,7 @@
     align-content: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #F7F719;
+    background-color: #282B59;
 }
 
 .checkbox-group>* {
@@ -54,8 +56,8 @@
 }
 
 .checkbox-input:focus+.checkbox-tile {
-    border-color: #2260ff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #b5c9fc;
+    border-color: #FB8500;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 0 0 4px #91F2CF;
 }
 
 .checkbox-input:focus+.checkbox-tile:before {
@@ -71,7 +73,7 @@
     width: 200px;
     min-height: 200px;
     border-radius: 0.5rem;
-    background-color: var(--darkBlue);
+    background-color: #FB8500;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     transition: 0.15s ease;
 }
@@ -97,7 +99,7 @@
 }
 
 .checkbox-tile:hover {
-    border-color: #2260ff;
+    border-color: #7EF2B0;
 }
 
 .checkbox-tile:hover:before {
@@ -116,7 +118,7 @@
 }
 
 .checkbox-label {
-    color: #fff;
+    color: white;
     font-size: 1.5rem;
     font-weight: bolder;
     transition: 0.375s ease;
@@ -128,9 +130,15 @@ fieldset {
     border-width: 0;
 }
 
-.svg {
+.svg  {
     fill: none;
     stroke-width: 3;
-    stroke: #fff;
+    stroke:#7EF2B0 ;
 }
+
+.p{
+    color:white;
+}
+
+
 

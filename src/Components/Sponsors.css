@@ -1,6 +1,6 @@
 :root{
- --varBlue: #0e2d3d;
- --varYellow: #f7f719;
+ --varBlue: #0d0d0d;
+ --varYellow: #7ef2b0;
 }
 
 .cf{
@@ -8,6 +8,7 @@
     justify-content:center;
     align-items:center;
     flex-direction: column;
+    background-image: url(../Assets/Black_background.jpeg);
 }
 
 .rf{
