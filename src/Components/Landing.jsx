@@ -28,7 +28,7 @@ function Landing () {
                 </div>
                 <div class="price">
                     <img src={trophy} alt="" className="icon-landing"/>
-                    <p>Cash Prizes worth ₹ 80k</p>
+                    <p>Cash Prizes worth ₹ 80k+</p>
                 </div>
             </div>
         </div>
