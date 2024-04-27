@@ -11,7 +11,7 @@ import Final from './Components/Final';
 import Whats from './Components/Whats'
 import Faq from './Components/Faq'
 import Footer from './Components/Footer'
-import Sponsors from './Components/Sponsors';
+// import Sponsors from './Components/Sponsors';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,7 +22,7 @@ root.render(
     <Tracks/>
     <Final/>
     <Whats/>
-    <Sponsors/>
+    // <Sponsors/>
     <Faq/>
     <Footer/> 
   </React.StrictMode>
