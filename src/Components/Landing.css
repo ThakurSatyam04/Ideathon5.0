@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url(https://db.onlinewebfonts.com/c/3ec991aa5f96223a7f062c9b4bda3c7e?family=Magz);
 
 :root{
     --yellow: #F7F719;
@@ -23,12 +24,37 @@
 .header{
     margin:0px;
     padding:0px;
-    background-color:rgb(14, 45, 61,0.67);
+    /* background-image: url(../Assets/background.jpg); */
+    /* background-color:rgb(14, 45, 61,0.67); */
+    /* background-color: #5D60A6; */
+    background-color: #282B59;
+    opacity: 0.67;
     background-size: cover;
 }
 
+.ideathon{
+    font-size: 10rem;
+    font-weight: 500;
+    font-family: 'Magz', sans-serif;
+    color: white;
+    height: 170px;
+    margin: 4rem 0 0 60px;
+}
+.o{
+    color: #88F2C0;
+}
+.version{
+    font-size: 5rem;
+    color: #88F2C0;
+}
+.tagline{
+    color: white;
+    margin: 0 0 5rem 60px;
+    font-size: 3rem;
+}
+
 .btn1{
-    background-color: var(--yellow);
+    background-color: #19f7c7;
     color: var(--darkBlue);
     width:200px;
     height: 55px;
@@ -41,11 +67,11 @@
 }
 
 .btn1:hover{
-    box-shadow: 0px 0px 10px #F7F719;
+    box-shadow: 0px 0px 10px #19f7c7;
     transition: 0.5s;
 }
 .icon-landing{
-    width: 70px;
+    /* width: 70px; */
     margin: 0;
     padding: 0;
 }
@@ -73,7 +99,7 @@
     padding: 24px;
     font-size: 60px;
     font-weight: bold;
-    color: var(--yellow);
+    color: #fff;
 }
 .abt_content{
     padding: 18px 0px;
@@ -97,6 +123,7 @@
 
 .logo{
     margin-left: -25px;
+    /* width: 1000px; */
     width: 1000px;
 }
 
@@ -109,6 +136,20 @@
     }
     .header{
         width:100%;
+    }
+
+    .ideathon{
+        font-size: 4rem;
+        font-weight: 100;
+        height: 100px;
+        margin: 4rem 0 0 15px;
+    }
+    .version{
+        font-size: 3rem;
+    }
+    .tagline{
+        font-size: 1.5rem;
+        margin: 0 0 1rem 15px;
     }
     
     .btn1{
@@ -144,12 +185,13 @@
     
     .logo{
         margin-top: 75%;
-        width: 350px;
+        width: 125px;
     }
     
 }
 
-@media screen and (min-width:800px) and (max-width:1300px) {
+/* @media screen and (min-width:800px) and (max-width:1300px) { */
+@media screen and (min-width:800px) and (max-width:1176px) {
     .header_section{
         width: 100%;
         background-size: 100% 100%;
@@ -164,10 +206,20 @@
         margin:0;
         padding:80px 20px;
     }
-    .logo{
+    .ideathon{
+        font-size: 7rem;
+        font-weight: bold;
+        height: 120px;
+        margin: 5rem 0 0 60px;
+    }
+    .tagline{
+        font-size: 2rem;
+        margin: 0 0 5rem 60px;
+    }
+    /* .logo{
         margin-top: 75%;
         width: 800px;
-    }
+    } */
     .btn1{
         font-size: 20px;
     }
@@ -192,9 +244,18 @@
     
 }
 
-@media screen and (width:280px){
-    .logo{
-        margin-top: 75%;
-        width: 250px;
+@media screen and (max-width:415px){
+    .ideathon{
+        font-size: 3rem;
+        /* font-weight: bold; */
+        height: 60px;
+        margin: 5rem 0 0 10px;
+    }
+    .version{
+        font-size: 1.75rem;
+    }
+    .tagline{
+        font-size: 1.25rem;
+        margin: 0 0 4rem 10px;
     }
 }

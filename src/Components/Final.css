@@ -14,11 +14,11 @@
 }
 
 .final_section{
-    /*background-image: ;*/
+    display: flex;
     background-size: 100%;
     background-repeat: no-repeat;
     width:100%;
-    height: 900px;
+    height: 750px;
     background-image: url(../Assets/Black_background.jpeg);
 }
 
@@ -30,24 +30,35 @@
 .contain{
     width:40%;
     padding: 90px ;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 #amt{
     font-size: 100px;
-    color:#fb8500;
+    color:#88F2C0;
 }
 
 .text-final{
     font-size:30px;
-    color:#fb8500;
+    color: #88F2C0;
 
 }
 
 #line2{
     font-size: 20px;
-    color:#fb8500;
+    color:#88F2C0;
 
+}
+
+.trophi{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.trophi img{
+    width: 80%;
 }
 
 @media screen and (min-width:200px) and (max-width:800px) {
@@ -63,6 +74,9 @@
     }
     .title-text{
         font-size: 44px;
+    }
+    .trophi{
+        display: none;
     }
     #amt{
         padding: 5px;
