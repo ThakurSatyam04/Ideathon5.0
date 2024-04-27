@@ -22,7 +22,7 @@ root.render(
     <Tracks/>
     <Final/>
     <Whats/>
-    // <Sponsors/>
+    {/* <Sponsors/> */}
     <Faq/>
     <Footer/> 
   </React.StrictMode>

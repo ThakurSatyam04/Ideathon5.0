@@ -1,0 +1,63 @@
+/* :root{
+    --varBlue: #282b59;
+    --varYellow: #f7f719;
+   }
+   
+   .cf{
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       flex-direction: column;
+       background-image: url(../Assets/Black_background.jpeg);
+   }
+   
+   .rf{
+       display:flex;
+       justify-content:center;
+       align-items:center; 
+       flex-wrap: wrap;
+   }
+   
+   .secHead{
+       font-size: 48px !important;
+       font-weight: bold;
+       margin: 32px;
+       padding: 8px;
+       color: #fff !important;
+   }
+   
+   .secWrap{
+       background-color: var(--varBlue) !important;
+       padding:0px 0px 64px 0px;
+   }
+   
+   .sponsorsContainer{
+       border: 4px solid #91f2cf;
+       border-radius: 104px;
+       width: 88vw;
+   }
+   @media (max-width: 440px) {
+       .sponsorsContainer{
+           border-radius: 16px;
+       }
+   }
+   
+   .sponsorsHead{
+       color: #fff !important;
+       font-size: 24px;
+   }
+   
+   .sponsor{
+       height: 72px;
+       padding: 16px;
+   }
+   
+   .mp16{
+       margin: 16px;
+       padding: 16px;
+   }
+   .mp8{
+       margin: 8px;
+       padding: 8px;
+   }
+    */
